@@ -1,0 +1,157 @@
+
+
+.container {
+    margin:30px auto 0;
+    position:relative;
+    text-align:left;
+    width:1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* header section */
+
+
+
+
+
+
+#p {
+    background-color: #fff;
+    padding:20px 0;
+}
+#content {
+    overflow: hidden;
+}
+#content #left, #content #right {
+    background-color: rgba(29, 4, 44, 0.651);
+    border: 1px solid #E9E9E9;
+    margin: 0 2%;
+    width: 63%;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+}
+#content #right {
+    margin-left: 0;
+    width: 30%;
+}
+#content h3 {
+   
+    border-bottom: 1px solid #E0E0E0;
+    color:#ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 11px 0 12px 20px;
+    text-transform: uppercase;
+}
+#content ul {
+    list-style:none outside none;
+    margin:0;
+    padding:0;
+}
+#content #left ul li {
+    float:left;
+    padding-bottom: 21px;
+    width: 33%;
+}
+
+#content #right ul li:first-child {
+    border-width: none;
+}
+#content #left ul li .img {
+    text-align: center;
+}
+#content #right ul li .img {
+    float: left;
+    height: 94px;
+    text-align: center;
+    width: 113px;
+}
+#content #left ul li .img img {
+    height:128px;
+    width:128px;
+}
+#content #right ul li .img img {
+    height:70px;
+    margin-top: 11px;
+    width:70px;
+}
+#content #left ul li .info {
+    padding: 17px 20px 0 19px;
+}
+#content #right ul li .info {
+    float: left;
+    overflow: hidden;
+    padding: 17px 0 0 21px;
+    width: 164px;
+}
+#content ul li .info .title {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+}
+#content ul li .info .title:hover {
+    color: #049733;
+}
+#content #left ul li .info p {
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 16px;
+    padding-top: 3px;
+}
+#content #left ul li .info .price {
+    background: none repeat scroll 0 0 rgba(29, 4, 44, 0.651);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 17px 0 10px;
+    padding: 6px 0 6px 8px;
+}
+#content #right ul li .info .price {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    padding-top: 25px;
+}
+#content #left ul li .info .price .st {
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 16px;
+    margin-right: 3px;
+}
+#content #right ul li .info .price .usual, #content #right ul li .info .price .special {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    padding-right: 6px;
+    text-decoration: line-through;
+}
+#content #right ul li .info .price .special {
+    color: #FD7A01;
+    font-weight: bold;
+    text-decoration: none;
+}
+#content #left ul li .info .actions {
+    overflow:hidden;
+}
+#content #left ul li .info .actions a {
+    border: 1px solid #E0E0E0;
+    color: #fd7a01;
+    display: block;
+    float:right;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 5px;
+    text-decoration: none;
+}

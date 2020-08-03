@@ -1,0 +1,131 @@
+
+<!--início-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<title>Contato</title>
+		<link rel="icon" href="img/icone.png">
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/contato.css">
+		
+  
+ </head>
+ <script>
+
+function somenteNumeros(num) {
+        var er = /[^0-9.]/;
+        er.lastIndex = 0;
+        var campo = num;
+        if (er.test(campo.value)) {
+          campo.value = "";
+        }
+    }
+function Enviar() {
+ 
+ var nome = document.getElementById("nomeid");
+ var email = document.getElementById("emailid");
+ var fone = document.getElementById("foneid");
+ 
+ 
+ if  (nome.value !=="" && (email.value !==""||email.indexOf('@') != -1) && fone.value !=="" ) {
+	 alert('Obrigado sr(a) ' + nome.value + ' sua mensagem foi encaminhada com sucesso');
+ }
+  else{
+
+	  alert('Preencha rodos os campos corretamente')
+	  
+  }
+}
+ </script>
+ <body>
+<!--Conteúdo principal da página-->
+	<main>
+
+		  <h1 class="titulo-principal"><img src="img/logo.png"/>&ensp;TecNotícias</h1>
+
+<!-- Menu horizontal -->
+	    <nav class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="loja.html">TecStore</a></li>
+					<li><a href="sobre.html">Sobre Nós</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+		</nav>
+
+      
+	</main>
+    <div class="cont">
+
+	   <p><img src="img/telefone.png"width="30" height="30"/>  +55 (99)9999-9999</p>
+	   <p><img src="img/email.png"width="30" height="30"/> tecnoticias@gmail.com</p>
+
+    </div>
+	<div class="Mform">
+	<form name="meu_form">
+ 
+        <h1 class="caixa">Entre em contato</h1>
+ 
+        <p class="nome">
+            <input type="text" id="nomeid" placeholder="Seu nome" required="required" name="nome" />
+            <label for="nome">Nome</label>
+        </p>
+        <p class="fone">
+			<input type="tel" id="foneid" maxlength="15" onkeyup="somenteNumeros(this);" pattern="[0-9]+$" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+            <label for="fone">Telefone</label>
+ 
+        </p>
+        <p>
+            <input type="email" id="emailid" placeholder="seuemail@mail.com" name="email" />
+            <label for="email">Email</label>
+        </p>
+        <p>
+            <textarea placeholder="Deixe sua mensagem"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+ 
+	</form>
+	</div>
+<div class="rodape-pagina">
+<!--rodape-->
+	<!--redes sociais -->
+<aside>
+	<ul class="icones-redes-sociais">
+		<li>
+			<a class="github" href="https://github.com/rubens-123">
+				Github
+			</a>
+		</li>
+		<li>
+			<a class="twitter" href="https://twitter.com">
+				Twitter
+			</a>
+		</li>
+		<li>
+			<a class="linkedin" href="https://br.linkedin.com">
+				LinkedIn
+			</a>
+		</li>
+		<li>
+			<a class="Instagram" href="https://www.instagram.com/hobbit_eduardo/">
+				Instagram
+			</a>
+		</li>
+		
+	</ul>
+  </aside>
+     <!--fim de anside(redes sociais)-->
+  <footer>
+	&copy; Rubens Eduardo-2020
+  </footer>
+ </div>
+<!-- fim rodape-->
+  </body>
+</html>
+
+<!--fim-->
+
+<!--© copyrigh Rubens Eduardo-->
