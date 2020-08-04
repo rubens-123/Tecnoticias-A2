@@ -47,7 +47,7 @@ body {
 /*Termino da Config do menu*/
 /*config do corpo da pagina*/
 .corpo{
-	width: 960px;
+	width: 50%;
 	margin: auto;
 	padding: 30px 0;
 	background-color: rgba(29, 4, 44, 0.651);
@@ -175,8 +175,8 @@ p {
 	font-size: 35px;
 	display: table-cell;
 	position: absolute;
-	top: 200px;
-	left: 900px;
+	top: 18.51851851851852%;
+	left: 46.875%;
 
 
 }
@@ -185,19 +185,19 @@ p {
 	color: #FFF;
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 	text-align: center; 
-	font-size: 30px;
+	font-size: 35px;
 	display: table-cell;
 	position: absolute;
-	top: 500px;
-	left: 300px;
+	top: 46.2962962962963%;
+	left: 5.625%;
 
  }
  .imgs2{
 
 	display: table-cell;
 	position: absolute;
-	top: 490px;
-	left: 1300px;
+	top: 45.37037037037037%;
+	left: 75.70833333333333%;
 
 
  }
@@ -205,8 +205,8 @@ p {
 
   display: table-cell;
   position: absolute;
-  top: 200px;
-  left: 490px;
+  top: 18.51851851851852%;
+  left: 20.52083333333333%;
     
 
 

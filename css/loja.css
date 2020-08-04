@@ -47,7 +47,7 @@ body {
 /*Termino da Config do menu*/
 /*config do corpo da pagina*/
 .corpo{
-	width: 960px;
+	width: 50%;
 	margin: auto;
 	padding: 30px 0;
 	background-color: rgba(29, 4, 44, 0.651);
@@ -149,7 +149,7 @@ p {
 /*rodape */
 .rodape-pagina {
 
-	position:absolute;
+	position: absolute;
 	bottom:0;
 	width:100%;
     text-align: center;
